@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="nav">
+    <ul>
+      <a href="#about"><li>About</li></a>
+      <a href="#portfolio"><li>Portfolio</li></a>
+      <a href="#services"><li>Services</li></a>
+    </ul>
+  </div>
+
+  <div class="hero">
+    <h3>Hi, My name Jason &#128075</h3>
+    <h1>I'm a Fullstack <br> Website Developer</h1>
+    <p>Ready to help your business grow with the power of technology.</p>
+    <a href="https://api.whatsapp.com/send/?phone=6281229538605&text&type=phone_number&app_absent=0"><button class="btn-primary">Contact Me</button></a>
+    <a href="#portfolio"><button class="btn-secondary">My Portfolio</button></a>
+    <div class="container tech-stack">
+      <div class="card">
+        <img src="src/html logo.png" alt="" height="30px">
+        <h3>HTML</h3>
+      </div>
+      <div class="card">
+        <img src="src/css logo.png" alt="" height="30px">
+        <h3>CSS</h3>
+      </div>
+      <div class="card">
+        <img src="src/js logo.png" alt="" height="30px">
+        <h3>JavaSript</h3>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="container">
+    <div id="about-content">
+      <div class="left-content">
+        <h1>About Me</h1>
+        <p>Since 2020, I worked as freelance graphic designer on fiverr. I have done more than 1200 international projects. <br> <br> In 2023, I started to learn programming. I join Purwadhika coding bootcamp in September 2023.</p>
+        <button class="cv-btn">Download CV</button>
+      </div>
+
+      <div class="right-content">
+        <img src="src/foto jason.jpg" alt="" height="300px">
+      </div>
+    </div>
+    <hr class="about-me-break">
+
+    <div id="portfolio">
+      <h1>My Latest Works</h1>
+      <div class="portfolio-showcase">
+        <div class="portfolio-card">
+          <img src="./src/portfolio 2.png" alt="" width="100%">
+        </div>
+        <div class="portfolio-card">
+          <img src="./src/portfolio 1.jpg" alt="" width="100%">
+        </div>
+      </div>
+      <a href="https://github.com/jasonhermawan"><button class="btn-secondary">Check Github Repo</button></a>
+    </div>
+  </div>
+
+  <div id="services" class="container">
+    <h1>Web Services</h1>
+    <div class="service-card-container">
+      <div class="service-card">
+        <h1>Company Profile</h1>
+        <p>Perfect for showcase your company to the world.</p>
+        <a href="https://api.whatsapp.com/send/?phone=6281229538605&text&type=phone_number&app_absent=0"><button>Free Consultation</button></a>
+      </div>
+      <div class="service-card">
+        <h1>Landing Page</h1>
+        <p>Get more sales now with stunning and converting landing page.</p>
+        <a href="https://api.whatsapp.com/send/?phone=6281229538605&text&type=phone_number&app_absent=0"><button>Free Consultation</button></a>
+      </div>
+      <div class="service-card">
+        <h1>Custom Service</h1>
+        <p>Need custom service for your business? Lets talk now.</p>
+        <a href="https://api.whatsapp.com/send/?phone=6281229538605&text&type=phone_number&app_absent=0"><button>Free Consultation</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer container">
+    <div class="left-footer">
+      <h1>Let's Work Together</h1>
+      <p>Get free consultation now.</p>
+      <a href="https://api.whatsapp.com/send/?phone=6281229538605&text&type=phone_number&app_absent=0" class="fa fa-whatsapp"></a>
+      <a href="https://github.com/jasonhermawan" class="fa fa-github"></a>
+      <a href="https://www.linkedin.com/in/jason-hermawan-sutjipto/" class="fa fa-linkedin"></a>
+    </div>
+    <div class="right-footer">
+      <input id="name" type="text" placeholder="Enter your name here">
+      <input id="email" type="email" placeholder="Enter your email here">
+      <input id="message" type="text" placeholder="What service do you need?">
+    </div>
+  </div>
+
+  <div class="fixed-button">
+    <a href="#" class="fa fa-whatsapp"></a>
+  </div>
+</body>
+</html>
